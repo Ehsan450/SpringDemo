@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ecommerce</title>
+</head>
+<body>
+<div>
+    <strong>Order: <span th:text="${order.orderId}"></span></strong>
+    <br>
+    <strong>Product ID: <span th:text="${order.product.product_id}"></span></strong>
+    <strong>Product Name: <span th:text="${order.product.product_name}"></span></strong>
+    <strong>Product Name: <span th:text="${order.product.specifications}"></span></strong>
+</div>
+</body>
+</html>
